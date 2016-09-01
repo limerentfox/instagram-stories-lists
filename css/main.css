@@ -1,0 +1,60 @@
+.unseenStoryItem {
+  background: -webkit-linear-gradient(left top, #a31391 0%, #f8a74f 100%);
+  margin-bottom: 3px;
+}
+
+.seenStoryItem {
+  border-style: solid;
+  border-width: 3px;
+  border-color: gray;
+}
+
+.trayItemImage {
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.instagramUserImage {
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.storyAuthorImage {
+  width: 32px;
+  height: 32px;
+  left: 10px;
+  top: 40px;
+  border-radius: 50%;
+}
+
+.storyAuthorUsername {
+  left: 55px;
+  top: 50px;
+  color: white;
+}
+
+.videoStoryItem {
+  width: auto;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  bottom: 0px;
+}
+
+#trayContainer {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  max-height: 130px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
